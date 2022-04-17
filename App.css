@@ -1,0 +1,139 @@
+div {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  font-family: 고딕;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 60px;
+}
+
+.main {
+  margin-top: -40px;
+  padding-right: 9px;
+  display: flex;
+  align-items: baseline;
+}
+
+.useritem_1 button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.useritem_2 button {
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+  background: rgb(219, 147, 5);
+  color: white;
+}
+
+.useritem_1 button:hover {
+  text-decoration: underline;
+}
+
+.useritem button img {
+  background-color: white;
+}
+
+.useritem {
+  margin: 10px;
+  color: white;
+}
+
+.dot-icon {
+  background-color: transparent;
+  border: none;
+}
+
+.search-bar {
+  position: relative;
+}
+
+input {
+  position: absolute 50%;
+  height: 44px;
+  width: 561px;
+  border-radius: 25px;
+  padding: 1px 44px 1px 52px;
+  border-color: rgb(252, 252, 252);
+  box-shadow: 0 0 5px 1px rgb(225, 225, 226);
+}
+
+.search-icon {
+  position: absolute;
+  margin-left: 10px;
+  top: 36%;
+}
+
+.voice-icon {
+  position: absolute;
+  top: 32%;
+  margin-left: -40px;
+  background-color: transparent;
+  border: none;
+}
+
+a {
+  color: snow;
+}
+
+.footercontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.footeritemadd_1 {
+  display: flex;
+}
+
+.footeritem {
+  height: 80px;
+  width: 100px;
+  margin: 1px;
+  border-radius: 5px;
+  border-color: rgba(252, 252, 252, 0.511);
+}
+
+.footeritem:hover {
+  background: rgba(238, 238, 241, 0.922);
+  border-radius: 5px;
+}
+
+.footeritem button,
+.footeritem2 button {
+  width: 100px;
+  height: 100px;
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footername {
+  color: black;
+}
+
+.footeritemadd_2 {
+  display: flex;
+}
+
+.footeritem2:hover {
+  /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); */
+  background: rgba(238, 238, 241, 0.922);
+  border-radius: 5px;
+}
+.footername:hover {
+  /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); */
+  background: rgba(238, 238, 241, 0.922);
+  border-radius: 5px;
+}
